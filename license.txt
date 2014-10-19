@@ -1,0 +1,29 @@
+﻿Copyright (c) 2011-2014 YellowAfterlife, SilentWorks
+
+This software is provided 'as-is', without any express or 
+implied warranty. In no event will the authors be held liable 
+for any damages arising from the use of this software.
+
+The following conditions apply to JavaScript framework included 
+with the software.
+
+1. You may use generated code in commercial purposes.
+
+2. You may use framework separetely from software to develop web 
+games and applications using it, including commercial purposes.
+
+3. You may NOT use framework itself in commercial purposes
+
+4. You may NOT use framework or generated code outside of 
+applications of its scope, including but not limited to software 
+involving generation of javascript files.
+
+5. Any derivative works upon software must be distributed under 
+same or similar licence, with information about previous authors kept intact.
+
+Short explanation:
+ ~ You can sell your games that you've made with Tululoo
+ ~ You can still sell your games if you've made them with framework without using IDE for one or other reason.
+ ~ But do not just sell framework itself. Commercialize things that you've made, not things that help to make these.
+ ~ Also do not build software of similar purposes as Tululoo on it's framework.
+ ~ However you can fork and improve framework itself, if you'll keep license the same and mention previous authors. This includes building 'alternative' versions of framework for use with Tululoo or separately.

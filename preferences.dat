@@ -1,0 +1,31 @@
+﻿
+[Code editor]
+sci_color_fore = 0
+sci_color_selection_back = 4194304
+sci_color_selection_fore = 16777215
+sci_color_command = 14888246
+sci_color_comment = 10526880
+sci_color_function = 2335523
+sci_color_number = 4210896
+sci_color_resource = 12298801
+sci_color_string = 12976326
+sci_color_tu_constant = 3947580
+sci_color_tu_function = 2255392
+sci_color_tu_variable = 1265745
+sci_color_caret = 15790335
+sci_font_family = Consolas
+sci_font_size = 11
+x = -8
+y = -8
+width = 1920
+height = 1018
+maximized = 1
+[Browser]
+add_file_protocol = 0
+[Misc]
+CheckProgramVersion = 0
+GenerateIndexHTML = 0
+ConfirmExit = 0
+[Export]
+ImgFolder = img
+AudFolder = aud

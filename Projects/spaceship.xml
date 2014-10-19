@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><tululoo version="200" uid="9" title="" advancedscriptmode="1" imgfolder="img" audfolder="aud"><functions/><variables/><comments/><sprites count="1"><sprite name="spr_ship" centerx="24" centery="30" collisionshape="Shape" collisionradius="32" collisionleft="0" collisionright="64" collisiontop="0" collisionbottom="64" keywords="ship" uid="7"/></sprites><frames count="3"><frame file="0" sprite="spr_ship"/><frame file="1" sprite="spr_ship"/><frame file="2" sprite="spr_ship"/></frames><sounds count="0"/><musics count="0"/><backgrounds count="0"/><fonts count="0"/><objects count="2"><object name="SceneObject16" template="obj_ship" prototype="0" scene="level1" sprite="spr_ship" x="160" y="220" visible="0" depth="0" collision="0" parent="" direction="0" image_angle="0" keywords="" uid="0"/><object name="obj_ship" template="" prototype="1" scene="" sprite="spr_ship" x="0" y="0" visible="1" depth="0" collision="1" parent="" direction="0" image_angle="0" keywords="" uid="10"/></objects><scripts count="1"><script name="scr_11" object="obj_ship" event="Step" parameter="">if (keyboard_check(vk_up)) {
+	this.speed = 4;
+} else {
+	this.speed = 0
+}
+
+if (keyboard_check(vk_right)) {
+	this.direction-=5;
+}
+
+if (keyboard_check(vk_left)) {
+	this.direction+=5;
+}
+
+this.image_angle = this.direction;</script></scripts><scenes count="1"><scene name="level1" width="640" height="480" speed="30" red="62" green="62" blue="62" background="" backgroundstretch="0" backgroundtilex="0" backgroundtiley="0" viewportwidth="640" viewportheight="480" viewportxborder="50" viewportyborder="50" viewportobject="" keywords="" uid="14"/></scenes><layers count="1"><layer name="layer_15" scene="level1" value="1000000"/></layers><tiles count="0"/><fns count="0"/><points count="24"><point sprite="spr_ship" x="22" y="7"/><point sprite="spr_ship" x="27" y="12"/><point sprite="spr_ship" x="42" y="12"/><point sprite="spr_ship" x="42" y="16"/><point sprite="spr_ship" x="37" y="20"/><point sprite="spr_ship" x="52" y="21"/><point sprite="spr_ship" x="57" y="22"/><point sprite="spr_ship" x="57" y="27"/><point sprite="spr_ship" x="54" y="29"/><point sprite="spr_ship" x="54" y="34"/><point sprite="spr_ship" x="57" y="36"/><point sprite="spr_ship" x="57" y="40"/><point sprite="spr_ship" x="52" y="42"/><point sprite="spr_ship" x="36" y="42"/><point sprite="spr_ship" x="42" y="46"/><point sprite="spr_ship" x="42" y="50"/><point sprite="spr_ship" x="27" y="50"/><point sprite="spr_ship" x="22" y="55"/><point sprite="spr_ship" x="10" y="48"/><point sprite="spr_ship" x="9" y="41"/><point sprite="spr_ship" x="6" y="38"/><point sprite="spr_ship" x="6" y="24"/><point sprite="spr_ship" x="9" y="22"/><point sprite="spr_ship" x="11" y="12"/></points></tululoo>

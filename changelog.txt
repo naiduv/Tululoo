@@ -1,0 +1,33 @@
+v2.0.0
+
+build 1
+- Added multiedit forms
+- Added keywords to resources
+- Added search by keywords
+- Added resource sorting
+- Added Scene duplication
+- Fixed small unreported bugs
+
+build2
+- Added Sprite Window Shape Editor (new collision type)
+- Added Auto-Saving forms when testing game (Run game button)
+- Improved Sprite importer
+
+build3
+- Added Sprite Image Editor (v1.0)
+- Fixed window "Always on top" issue when switching OS tasks
+- Added object selector on Scene Editor
+- Fixed opened windows bug when starting a new project
+- Added DOCTYPE to main index.html
+- Fixed window bug when deleting a Background
+- Added resizeable window to the Sprite importer
+- Added minimize icon to all windows
+
+build4
+- Fixed Shape Editor crash when setting grid size
+- Fixed Snap to grid option in Scene Editor
+- Fixed wrong Parent/Child object generation order
+- Added Merge project feature
+
+build5
+- Fixed Sprite Editor eraser bug (when image has no alpha channel)
